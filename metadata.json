@@ -1,0 +1,5 @@
+{
+  "name": "Activity Point Analyzer",
+  "description": "An intelligent web-based system to automate certificate verification and activity point allocation using OCR and machine learning.",
+  "requestFramePermissions": []
+}
