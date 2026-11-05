@@ -21,9 +21,11 @@ export interface Activity {
   extracted_text: string;
   description?: string;
   created_at: string;
-  student_name?: string;
+  // These fields are needed for the Teacher/Faculty dashboard:
+  student_name?: string; 
   branch?: string;
   year?: string;
+  college_id?: string; // <--- ADD THIS LINE
 }
 
 export interface Stats {
